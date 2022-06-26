@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: pocketmd-frontend-assignment
+
+test:
+  <<: *default
+  database: pocketmd-frontend-assignment
+
+production:
+  <<: *default
+  database: pocketmd-frontend-assignment
+  username: pocketmd-frontend-assignment
+  password: <%= ENV['pocketmd-frontend-assignment'] %>
