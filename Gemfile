@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.8'
+ruby '2.7.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
@@ -52,3 +52,5 @@ gem 'graphql_playground-rails'
 gem 'faker', '~> 1.6', '>= 1.6.3'
 
 gem 'sprockets', '~> 4.0'
+
+gem "mimemagic"
