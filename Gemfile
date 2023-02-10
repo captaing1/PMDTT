@@ -53,5 +53,5 @@ gem 'faker', '~> 1.6', '>= 1.6.3'
 
 gem 'sprockets', '~> 4.0'
 
-gem 'wdm', '~> 0.1.1'
+# gem 'wdm', '~> 0.1.1'
 # gem "mimemagic"
