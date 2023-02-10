@@ -6,6 +6,8 @@ default: &default
 development:
   <<: *default
   database: pocketmd-frontend-assignment
+  username: postgres
+  password: postgres
 
 test:
   <<: *default
